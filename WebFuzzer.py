@@ -12,7 +12,7 @@ import click
 
 @click.command()
 @click.option("--url",help="--url example.com")
-def main(url,port):
+def main(url):
     subdom(url)
 
 def subdom(url): #alt alan adı tarama

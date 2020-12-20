@@ -39,6 +39,6 @@ def subdom(url): #alt alan adı tarama
             else:
                 print("|" + str(a.status_code) + "| " + link)
             
-        i+=1
+            i+=1
     print("------------------------------------")
 main()
